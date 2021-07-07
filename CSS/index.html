@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Introdução ao CSS</title>
+
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .flex-div {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+      }
+
+      .child-div {
+        border: 1px solid black;
+        width: 20px;
+      }
+
+      .my-div {
+        color: red;
+      }
+
+      #my-input {
+        background: dodgerblue;
+      }
+
+      #my-input:hover {
+        background: green;
+      }
+
+      span[gama-academy] {
+        color: greenyellow;
+      }
+
+      .my-div::first-letter {
+        font-size: 30px;
+      }
+
+      @media (max-width: 600px) and (min-height: 500px) {
+        .flex-div {
+          width: 500px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>CSS</header>
+    <main>
+      <section>
+        <div class="flex-div">
+          <div class="child-div">1</div>
+          <div class="child-div">2</div>
+        </div>
+
+        <div class="my-div">Olá, mundo!</div>
+        <input id="my-input" />
+        <span gama-academy>Gama ACademy</span>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
