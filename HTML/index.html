@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR"></html>
+  <head>
+    <title>
+       Página para Exercícios HTML - Gama Academy
+    </title>
+
+    <meta charset="UTF-8 " />
+
+    <meta name="description" content="Programa de treinamento da Hiring Coders" />
+
+    <meta name="author" content="Henrique Moreira" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </head>
+
+<body>
+  <header>
+    <img
+      src="https://avatars.githubusercontent.com/u/53455458?s=48&v=4" 
+      alt="Henrique Moreira" 
+      title="Henrique Moreira"
+    />
+
+    <h1> Cabeçalho 1 </h1>
+    <h2> Cabeçalho 2 </h2>
+    <h3> Cabeçalho 3 </h3>
+    <h4> Cabeçalho 4 </h4>
+    <h5> Cabeçalho 5 </h5>
+    <h6> Cabeçalho 6 </h6>
+
+  </header>
+
+  <nav> Navegação </nav>
+
+  <main>
+    <article> 
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Mês da Atividade</th>
+            <th>Nome da Atividade</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td colspan="2">Janeiro</td>
+          </tr>
+          <tr>
+            <td>Fevereiro</td>
+            <td rowspan>Meditação</td>
+          </tr>
+          <tr>
+            <td>Março</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td>Total de Atividades</td>
+            <td>2 Atividades</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <p> Parágrafo </p>
+      <strong> Negrito </strong>
+      <br />
+      <span> span </span>
+
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/m9Qc3PEQsfI" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      <!-- Lista Desordenada -->
+
+      <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+
+      <!-- Lista Ordenada -->
+      <ol start="3">
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ol>
+
+      <!-- Lista de Definição -->
+      <dl>
+        <dt>Palavra 1</dt>
+        <dd>Explicação da palavra</dd>
+      </dl>
+
+    </article>
+
+    <section>
+      <div>Div 1</div>
+      <div>Div 2</div>
+      <div>Div 3</div>
+    </section>
+
+    <form action="#" method="POST">
+      <label for="nome">Name</label>
+      <input type="text" name="nome" id="nome" />
+
+      <select name="Interesses">
+        <option value="1"> Vendas </option>
+        <option value="2"> Marketing </option>
+      </select>
+      
+      
+      <fieldset> 
+        <legend> Interesses de Estudo 2 </legend>
+
+        <input type="radio" name="interesse2" value="1" />
+        <input type="radio" name="interesse2" value="2" />
+      </fieldset>
+
+      <fieldset>
+        <legend> Interesses de Estudo 3 </legend>
+
+        <input type="checkbox" name="interesse3" value="1" />
+        <input type="checkbox" name="interesse3" value="2" />
+      </fieldset>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </main>
+
+  <footer>
+    <a 
+      href="https://google.com" 
+      title="Site do Google" 
+      target="_black"> 
+      Google 
+    </a>
+  </footer>
+</body>
+</html>
