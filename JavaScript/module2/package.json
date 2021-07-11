@@ -1,0 +1,12 @@
+{
+  "name": "module2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
