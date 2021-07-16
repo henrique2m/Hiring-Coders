@@ -1,0 +1,5 @@
+npm install -g typescript -> adiciona o typescript globalmente
+-------------------------------------------------------------------------------
+tsc --init -> gera o arquivo tsconfig.json que contem as configurações do typescript
+----------------------------------------------------------------------------------
+tsc -> faz a transpilação do código TypeScript para tradicional JavaScript 
