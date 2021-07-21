@@ -1,0 +1,13 @@
+{
+  "name": "graph-ql",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm ."
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
